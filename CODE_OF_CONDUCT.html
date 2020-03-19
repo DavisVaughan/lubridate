@@ -6,21 +6,21 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Is a year a leap year? — leap_year • lubridate</title>
+<title>Contributor Code of Conduct • lubridate</title>
 
 <!-- favicons -->
-<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
-<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="../apple-touch-icon.png" />
-<link rel="apple-touch-icon" type="image/png" sizes="120x120" href="../apple-touch-icon-120x120.png" />
-<link rel="apple-touch-icon" type="image/png" sizes="76x76" href="../apple-touch-icon-76x76.png" />
-<link rel="apple-touch-icon" type="image/png" sizes="60x60" href="../apple-touch-icon-60x60.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="apple-touch-icon.png" />
+<link rel="apple-touch-icon" type="image/png" sizes="120x120" href="apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon" type="image/png" sizes="76x76" href="apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon" type="image/png" sizes="60x60" href="apple-touch-icon-60x60.png" />
 
 <!-- jquery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
 <!-- Bootstrap -->
-<link href="../tidyverse.css" rel="stylesheet">
+<link href="tidyverse.css" rel="stylesheet">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 <!-- Font Awesome icons -->
@@ -35,16 +35,13 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.4/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script>
 
 <!-- pkgdown -->
-<link href="../pkgdown.css" rel="stylesheet">
-<script src="../pkgdown.js"></script>
-<link href="../tidyverse-2.css" rel="stylesheet">
+<link href="pkgdown.css" rel="stylesheet">
+<script src="pkgdown.js"></script>
+<link href="tidyverse-2.css" rel="stylesheet">
 
 
 
-<meta property="og:title" content="Is a year a leap year? — leap_year" />
-<meta property="og:description" content="If x is a recognized date-time object, leap_year will return whether x
-occurs during a leap year. If x is a number, leap_year returns whether it
-would be a leap year under the Gregorian calendar." />
+<meta property="og:title" content="Contributor Code of Conduct" />
 <meta property="og:image" content="http://lubridate.tidyverse.org/logo.png" />
 <meta name="twitter:card" content="summary" />
 
@@ -73,7 +70,7 @@ would be a leap year under the Gregorian calendar." />
   </head>
 
   <body>
-    <div class="container template-reference-topic">
+    <div class="container template-title-body">
       <header>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -86,7 +83,7 @@ would be a leap year under the Gregorian calendar." />
       </button>
 
       <div class="navbar-brand-container">
-        <a class="navbar-brand" href="../index.html">lubridate</a>
+        <a class="navbar-brand" href="index.html">lubridate</a>
         <div class="info">
           <span class="partof">part of the <a href="https://tidyverse.org">tidyverse</a></span>
           <span class="version version-default" data-toggle="tooltip" data-placement="bottom" title="Released version">1.7.4.9000</span>
@@ -96,13 +93,13 @@ would be a leap year under the Gregorian calendar." />
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
         <li>
-  <a href="../reference/index.html">Reference</a>
+  <a href="reference/index.html">Reference</a>
 </li>
 <li>
-  <a href="../articles/lubridate.html">Intro</a>
+  <a href="articles/lubridate.html">Intro</a>
 </li>
 <li>
-  <a href="../news/index.html">News</a>
+  <a href="news/index.html">News</a>
 </li>
         <li>
   <a href="https://github.com/tidyverse/lubridate">
@@ -121,48 +118,25 @@ would be a leap year under the Gregorian calendar." />
       </header>
 
 <div class="row">
-  <div class="col-md-9 contents">
+  <div class="contents col-md-9">
     <div class="page-header">
-    <h1>Is a year a leap year?</h1>
-    <small class="dont-index">Source: <a href='https://github.com/tidyverse/lubridate/blob/master/R/leap-years.r'><code>R/leap-years.r</code></a></small>
-    <div class="hidden name"><code>leap_year.Rd</code></div>
+      <h1>Contributor Code of Conduct</h1>
     </div>
 
-    <div class="ref-description">
-    <p>If x is a recognized date-time object, leap_year will return whether x
-occurs during a leap year. If x is a number, leap_year returns whether it
-would be a leap year under the Gregorian calendar.</p>
-    </div>
+<div id="contributor-code-of-conduct" class="section level1">
 
-    <pre class="usage"><span class='fu'>leap_year</span>(<span class='no'>date</span>)</pre>
-
-    <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
-    <table class="ref-arguments">
-    <colgroup><col class="name" /><col class="desc" /></colgroup>
-    <tr>
-      <th>date</th>
-      <td><p>a date-time object or a year</p></td>
-    </tr>
-    </table>
-
-    <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
-
-    <p>TRUE if x is a leap year, FALSE otherwise</p>
-
-    <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='no'>x</span> <span class='kw'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/as.Date.html'>as.Date</a></span>(<span class='st'>"2009-08-02"</span>)
-<span class='fu'>leap_year</span>(<span class='no'>x</span>) <span class='co'># FALSE</span></div><div class='output co'>#&gt; [1] FALSE</div><div class='input'><span class='fu'>leap_year</span>(<span class='fl'>2009</span>) <span class='co'># FALSE</span></div><div class='output co'>#&gt; [1] FALSE</div><div class='input'><span class='fu'>leap_year</span>(<span class='fl'>2008</span>) <span class='co'># TRUE</span></div><div class='output co'>#&gt; [1] TRUE</div><div class='input'><span class='fu'>leap_year</span>(<span class='fl'>1900</span>) <span class='co'># FALSE</span></div><div class='output co'>#&gt; [1] FALSE</div><div class='input'><span class='fu'>leap_year</span>(<span class='fl'>2000</span>) <span class='co'># TRUE</span></div><div class='output co'>#&gt; [1] TRUE</div></pre>
-  </div>
-  <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
-    <h2>Contents</h2>
-    <ul class="nav nav-pills nav-stacked">
-      <li><a href="#arguments">Arguments</a></li>
-      <li><a href="#value">Value</a></li>
-      <li><a href="#examples">Examples</a></li>
-    </ul>
-
-  </div>
+<p>As contributors and maintainers of this project, we pledge to respect all people who contribute through reporting issues, posting feature requests, updating documentation, submitting pull requests or patches, and other activities.</p>
+<p>We are committed to making participation in this project a harassment-free experience for everyone, regardless of level of experience, gender, gender identity and expression, sexual orientation, disability, personal appearance, body size, race, ethnicity, age, or religion.</p>
+<p>Examples of unacceptable behavior by participants include the use of sexual language or imagery, derogatory comments or personal attacks, trolling, public or private harassment, insults, or other unprofessional conduct.</p>
+<p>Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct. Project maintainers who do not follow the Code of Conduct may be removed from the project team.</p>
+<p>Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by opening an issue or contacting one or more of the project maintainers.</p>
+<p>This Code of Conduct is adapted from the Contributor Covenant (<a href="https://www.contributor-covenant.org" class="uri">https://www.contributor-covenant.org</a>), version 1.0.0, available at <a href="https://contributor-covenant.org/version/1/0/0/" class="uri">https://contributor-covenant.org/version/1/0/0/</a>.</p>
 </div>
+
+  </div>
+
+</div>
+
 
 
       <footer>
