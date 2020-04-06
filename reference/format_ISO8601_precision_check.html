@@ -70,7 +70,7 @@
 
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target="#toc">
     <div class="container template-reference-topic">
       <header>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -138,8 +138,10 @@
     <tr>
       <th>precision</th>
       <td><p>The amount of precision to represent with substrings of
-"ymdhms", as "y"ear, "m"onth, "d"ay, "h"our, "m"inute, and "s"econd. (e.g.
-"ymdhm" would show precision through minutes.</p></td>
+"ymdhms", as "y"ear, "m"onth, "d"ay, "h"our, "m"inute, and
+"s"econd. (e.g. "ymdhm" would show precision through minutes. When NULL,
+<code>max_precision</code> is returned.  When <code>precision</code> is more precise than
+<code>max_precision</code>, a warning is given and <code>max_precision</code> is returned.</p></td>
     </tr>
     <tr>
       <th>max_precision</th>
@@ -154,11 +156,9 @@
 
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
-    <h2>Contents</h2>
-    <ul class="nav nav-pills nav-stacked">
-      <li><a href="#arguments">Arguments</a></li>
-    </ul>
-
+    <nav id="toc" data-toggle="toc" class="sticky-top">
+      <h2 data-toc-skip>Contents</h2>
+    </nav>
   </div>
 </div>
 
